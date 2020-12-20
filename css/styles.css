@@ -26,6 +26,15 @@ li {
 address {
   font-style: normal;
 }
+.list {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* header */
 .logo-header {
@@ -72,6 +81,7 @@ address {
 /*Hero*/
 .hero {
   background-color: var(--footer-background-color);
+  text-align: center;
 }
 .hero-header {
   font-weight: 900;
@@ -81,6 +91,9 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-background-color);
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 0px;
 }
 .hero-button {
   padding: 10px 32px;
@@ -88,9 +101,13 @@ address {
   text-align: center;
   background-color: var(--accent-color);
   color: var(--main-background-color);
+  border-radius: 4px;
 }
 /*section-benefits*/
+
 .benefits {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -105,7 +122,13 @@ address {
   color: var(--main-color);
 }
 /*section-what-we-doing*/
+.section-what-we-do {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .what-do {
+  margin-top: 0px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -115,8 +138,12 @@ address {
 /*section-comand*/
 .section-comand {
   background-color: var(--sec-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .comand {
+  margin-top: 0px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
