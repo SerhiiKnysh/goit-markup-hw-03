@@ -139,6 +139,9 @@ address {
 .advantages {
   display: flex;
 }
+.advant {
+  width: 270px;
+}
 .advantages .advant + .advant {
   margin-left: 30px;
 }
