@@ -240,8 +240,6 @@ address {
 /*footer*/
 footer {
   background-color: var(--footer-background-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .local-adress {
