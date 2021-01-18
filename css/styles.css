@@ -336,8 +336,8 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  margin-top: 20px;
+  margin: 0px;
+  /* margin-top: 20px; */
   margin-bottom: 4px;
 }
 .project {
@@ -347,8 +347,11 @@ footer {
   letter-spacing: 0.03em;
   color: var(--main-color);
 
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin: 0px;
+  /* margin-bottom: 20px; */
+}
+.card-padding {
+  padding: 20px 24px;
 }
 .projects {
   padding-bottom: 94px;
