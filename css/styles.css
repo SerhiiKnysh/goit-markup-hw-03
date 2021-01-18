@@ -83,6 +83,7 @@ address {
 }
 .page-header {
   background-color: var(--main-background-color);
+  border-bottom: 1px solid #ececec;
 }
 .site-nav {
   font-weight: 500;
@@ -111,7 +112,6 @@ address {
 }
 /*Hero*/
 .hero {
-  margin-bottom: 94px;
   background-color: var(--footer-background-color);
   text-align: center;
 }
@@ -139,8 +139,8 @@ address {
 /*section-benefits*/
 .advantages {
   display: flex;
-  padding: 0px;
-  margin-bottom: 0px;
+  padding: 94px 0px 0px 0px;
+  margin: 0px;
 }
 .advant {
   width: 270px;
@@ -284,6 +284,8 @@ footer {
 
 /*PORTFOLIO*/
 .flex-button {
+  margin: 0px;
+  padding-bottom: 50px;
   padding-left: 0px;
   display: flex;
   justify-content: center;
@@ -350,4 +352,5 @@ footer {
 }
 .projects {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
